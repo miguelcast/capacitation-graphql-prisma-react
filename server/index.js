@@ -1,5 +1,5 @@
 const { ApolloServer } = require('apollo-server');
-const { prisma } = require('./prisma-client');
+const { prisma } = require('./prisma-client/index');
 const types = require('./src/types');
 const resolvers = require('./src/resolvers');
 
